@@ -1,6 +1,6 @@
 module github.com/skariyania/go-conceptual/events/consume
 
-go 1.15
+go 1.22
 
 require (
 	github.com/go-stack/stack v1.8.1 // indirect
