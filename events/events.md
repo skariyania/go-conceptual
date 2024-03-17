@@ -39,7 +39,7 @@ go run main.go
 ### send message to producer - curl
 
 ```shell
-curl --location 'http://localhost:8080/produce' \
+curl --location 'http://localhost:8080/user/onboarding' \
 --header 'Content-Type: application/json' \
 --data '{"name": "sahil", "last_name": "kariyania"}'
 ```

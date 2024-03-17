@@ -46,7 +46,7 @@ func main() {
 	defer kafkaWriter.Close()
 
 	// Add handle func for producer.
-	http.HandleFunc("/produce", producerHandler(kafkaWriter))
+	http.HandleFunc("/user/onboarding", producerHandler(kafkaWriter))
 
 	// Run the web server.
 	fmt.Println("started producer  at: 8080... !!")
