@@ -1,6 +1,6 @@
 module github.com/skariyania/go-conceptual/events/produce
 
-go 1.0
+go 1.22
 
 require (
 	github.com/klauspost/compress v1.12.2 // indirect
