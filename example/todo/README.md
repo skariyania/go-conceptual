@@ -18,6 +18,10 @@ protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=p
 ```sh
 go run server/main.go
 ```
+Run client app in another terminal
+```sh
+go run client/main.go
+```
 
 #### Sending GRPC request to server using postman
 [postman collection](https://www.postman.com/sahil-kariyania/workspace/osci/grpc-request/6688ffecb5159db4e8682146)
