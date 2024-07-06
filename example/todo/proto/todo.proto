@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package proto;
 
-option go_package = "github.com/skariyania/go-conceptual";
+option go_package = "github.com/skariyania/go-conceptual/example/todo/proto/todo";
 
 message NewTodo {
     string Name = 1;
