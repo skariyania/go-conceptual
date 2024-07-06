@@ -1,6 +1,6 @@
 module github.com/skariyania/go-conceptual/example/todo-app
 
-go 1.22
+go 1.22.5
 
 require google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.4.0
 
