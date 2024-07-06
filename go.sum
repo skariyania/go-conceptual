@@ -1,5 +1,7 @@
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
 github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/skariyania/go-conceptual/example/todo-app v0.0.0-20240706041049-4503d66d9c4e h1:MoskQPOgnftAZg9FT/Y5APeYgsloVFaDJRRbSEC1r0E=
+github.com/skariyania/go-conceptual/example/todo-app v0.0.0-20240706041049-4503d66d9c4e/go.mod h1:RHbPLHkA+ohEUiCKCYkTjeZKK4QvaeF82c1MXngNwq0=
 golang.org/x/net v0.25.0 h1:d/OCCoBEUq33pjydKrGQhw7IlUPI2Oylr+8qLx49kac=
 golang.org/x/net v0.25.0/go.mod h1:JkAGAh7GEvH74S6FOH42FLoXpXbE/aqXSrIQjXgsiwM=
 golang.org/x/sys v0.20.0 h1:Od9JTbYCk261bKm4M/mw7AklTlFYIa0bIp9BgSm1S8Y=

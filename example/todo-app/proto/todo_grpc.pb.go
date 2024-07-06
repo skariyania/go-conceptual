@@ -4,7 +4,7 @@
 // - protoc             v3.12.4
 // source: proto/todo.proto
 
-package todo_app
+package go_conceptual
 
 import (
 	context "context"

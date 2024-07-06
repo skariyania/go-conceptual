@@ -18,7 +18,7 @@ import (
 	// 	"google.com/golang.org/grpc"
 	// )
 
-	pb "github.com/skariyania/go-conceptual/example/todo-app"
+	pb "github.com/skariyania/go-conceptual"
 )
 
 const (
