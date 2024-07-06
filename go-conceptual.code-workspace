@@ -9,7 +9,9 @@
 			"conduktor",
 			"confluentinc",
 			"GOPATH",
+			"proto",
 			"protobuf",
+			"protoc",
 			"segmentio"
 		]
 	}
