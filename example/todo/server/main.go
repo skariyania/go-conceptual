@@ -8,17 +8,7 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 
-	// import (
-	// "context"
-	// "log"
-	// 	"net"
-
-	// 	pb "github.com/skariyania/go-c0nceptual/example/todo-app"
-	//
-	// 	"google.com/golang.org/grpc"
-	// )
-
-	pb "github.com/skariyania/go-conceptual/example/todo/proto/todo"
+	pb "github.com/skariyania/go-conceptual/example/todo/proto"
 )
 
 const (
@@ -26,10 +16,10 @@ const (
 )
 
 type TodoServer struct {
-	// pb.UnimplementedTodoServer
+	pb.UnimplementedTodoServiceServer
 }
 
-func (s *TodoServer) CreateTodo(ctx context.Context, in *pb.NewTodo) {
+func (s *TodoServer) CreateTodo(ctx context.Context, in *pb.NewTodo) (*pb.Todo, error) {
 	log.Printf("received %v", in.GetName())
 	todo := &pb.Todo{
 		Name:        in.GetName(),
@@ -50,7 +40,7 @@ func main() {
 
 	s := grpc.NewServer()
 
-	pb.RegisterTodoServer(s, &TodoServer{})
+	pb.RegisterTodoServiceServer(s, &TodoServer{})
 
 	log.Printf("server listening at %v", listener.Addr())
 

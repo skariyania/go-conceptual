@@ -12,7 +12,8 @@
 			"proto",
 			"protobuf",
 			"protoc",
-			"segmentio"
+			"segmentio",
+			"skariyania"
 		]
 	}
 }

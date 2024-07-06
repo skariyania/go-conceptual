@@ -12,4 +12,12 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 #### Compile proto file
 ```sh
 protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative example/todo/proto/todo.proto
-``
+```
+
+#### Run the grpc todo app
+```sh
+go run server/main.go
+```
+
+#### Sending GRPC request to server using postman
+[postman collection](https://www.postman.com/sahil-kariyania/workspace/osci/grpc-request/6688ffecb5159db4e8682146)
